@@ -1,0 +1,77 @@
+body{
+        background: #687EFF;
+        margin: 0;
+        padding: 0;
+        display: flex;
+}
+.calc h1{
+    font-size: 60px;
+    color: white;
+    
+    position: relative;
+    top: 25vh;
+    left: 25vh;
+    font-family: cursive;
+
+}
+.calc h1 span{
+    position: relative;
+    top: 2vh;
+    left: 13vh;
+    color: greenyellow;
+    font-family: cursive;
+    font-size: 70px;
+}
+.box1{
+    position: relative;
+    left: 130vh;
+}
+#date{
+    padding: 10px 20px;
+    font-size: 15px;
+    border-radius: 10px;
+    margin-right: 35px;
+    background-color: transparent;
+    color: white;
+    outline: 4px solid white;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0px 15px 10px black;
+    width: 50%;
+}
+button{
+    background: transparent;
+    border: none;
+    outline: 3px solid white;
+    border-radius: 5px;
+    font-size: 15px;
+    color: white;
+    cursor: pointer;
+    box-shadow: 0px 10px 10px black;
+    padding: 10px 20px;
+    position: relative;
+    bottom: 5vh;
+    left: 38vh;
+
+}
+button:hover{
+    background-color: yellow;
+    color: black;
+    transition: 0.4s;
+}
+#result{
+    position: relative;
+    left: 130vh;
+    font-size: 18px;
+    color: white;
+    border-style: groove;
+    padding: 10px 20px;
+    border-color: white;
+    box-shadow: 0px 10px 10px black;
+    border: none;
+    outline: 1px solid white;
+}
+#result span{
+    color: red;
+    font-weight: 100;
+}
